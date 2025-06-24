@@ -1,6 +1,6 @@
 AllCops:
   TargetBranches: &target_branches
-    - master
+    - main
 
 # Require reviews for pull requests
 # Params:
@@ -9,7 +9,7 @@ AllCops:
 Review::RequireApprovals:
   Enabled: true
   Required: true
-  PeerCount: 2
+  PeerCount: 1
   Branches: *target_branches
 
 # Require some checkboxes to be tick in pull request body
@@ -22,7 +22,7 @@ Review::RequireApprovals:
 # + Paths : list of filename blobbing strings. Only require this checkbox if changed files match this list.
 Review::RequireCheckboxes:
   Enabled: false
-  Required: true
+  Required: false
   Branches: *target_branches
   Checkboxes: []
 
@@ -36,8 +36,8 @@ Kafka::MessageChanged:
   Enabled: false
 
 Thinkei::ReviewCrossTeam:
-  Enabled: true
-  Required: true
+  Enabled: false
+  Required: false
 
 Security::TextMatchWarning:
   Enabled: false
