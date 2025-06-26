@@ -9,7 +9,7 @@
 - 
 - 
 
-# AI Usage
+# AI usage
 - [ ] No AI was used
 - [ ] AI-assisted code completion
 - [ ] AI agents used to reason about or plan code
