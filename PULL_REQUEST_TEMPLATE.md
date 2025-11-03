@@ -17,3 +17,7 @@
 - [ ] Code was 100% written by AI
 
 If "No AI was used" is ticked, comment why AI was not utilised: <!-- add reasoning here -->
+
+> ⚠️ **ACM Certificate Notice:**  
+> If your change involves provisioning a new ACM certificate, you must also update the [infra-acm-deployer repository](https://github.com/Thinkei/infra-acm-deployer).
+
