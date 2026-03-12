@@ -1,6 +1,6 @@
-### Jira: _Jira URL_
-
 ## Why
+
+_Jira URL_
 
 _The purpose of this PR — what problem it solves or goal it achieves. Reviewers use this to assess whether individual changes align with intent._
 
