@@ -1,19 +1,21 @@
-# Jira card (URL): <!-- Jira URL -->
+## Why
 
-# Summary
+_Jira URL_
 
-<!-- Add description here -->
+_The purpose of this PR — what problem it solves or goal it achieves. Reviewers use this to assess whether individual changes align with intent._
 
-# Changes proposed in this pull request:
-- 
-- 
-- 
+## Summary
 
-# AI usage
-- [ ] No AI was used
-- [ ] AI-assisted code completion
-- [ ] AI agents used to reason about or plan code
-- [ ] AI agents used to generate or modify code
-- [ ] Code was 100% written by AI
+_Brief summary of what changed._
 
-If "No AI was used" is ticked, comment why AI was not utilised: <!-- add reasoning here -->
+## Changes proposed in this pull request
+
+_Each change with what was changed AND why (e.g. "auth.cs — removed 2FA to reduce friction for low-risk users")._
+
+## Test Evidence
+
+_Tests written/run and their results, or manual verification steps taken._
+
+## Risk
+
+_Risks assessed across: **Size** (diff volume), **Complexity** (logic/interdependencies), **Type** (DB migrations > auth > backend > UI > tests > docs), **Feature area** (auth/payments/compliance = high risk), **Requirements adherence** (does the diff satisfy the Jira AC?), **Test evidence clarity** (are critical paths covered?). "None identified" if all dimensions are low risk._
