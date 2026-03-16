@@ -10,7 +10,7 @@ _Brief summary of what changed._
 
 ## Changes proposed in this pull request
 
-_Each change with what was changed AND why (e.g. "auth.cs — removed 2FA to reduce friction for low-risk users")._
+_Each change with what was changed AND why (e.g. "user.ts — added email validation to prevent malformed submissions")._
 
 ## Test Evidence
 
