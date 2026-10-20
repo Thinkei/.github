@@ -6,6 +6,7 @@ jobs:
   scan:
     name: gitleaks
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     # Skip when dependabot creates PRs, but allow developers rerun to handle those PRs
     if: ${{ github.triggering_actor != 'dependabot[bot]' && github.event_name != 'merge_group' }}
     steps:
